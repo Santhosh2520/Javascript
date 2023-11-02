@@ -1,0 +1,46 @@
+<!DOCKTYPE HTML>
+<html>
+    <head>
+        <title>Opreators html</title>
+    </head>
+    <body>
+        <script>
+            let x="5";
+            let y="3";
+            //x++
+            z=x+y
+            //x+=2
+            console.log(z)
+        </script>
+        <script>
+            function comparison(){
+                //Realtional Oprators
+                let x=5;
+                console.log(x>5);//Less than
+                console.log(x<=5);//Lessthan or equl to
+                console.log(x<5);
+                console.log(x<=5);
+                //Equality Oprators
+                console.log(x===5);
+                console.log(x!==5);
+                //String comparison
+                console.log("Santhosh">"Ravichanran");
+                const student={};
+                student.name="santhosh";
+                student.age=20;
+                student.gender="male";
+                student.class=12+'a'
+                var employee = new Object();
+                employee.id="2423"
+
+                const exe = employee;
+                exe.id = 46;
+                employee.adress="avadi"
+                console.log(employee)
+                console.log(exe);
+                console.log(student)
+            }
+        </script>
+        <button onclick="comparison()">clickMe!</button>
+    </body>
+</html>
