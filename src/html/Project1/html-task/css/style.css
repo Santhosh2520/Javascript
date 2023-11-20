@@ -1,0 +1,21 @@
+body{
+    background :white;
+}
+h1{
+    color: red,black;
+    
+}
+h3{
+    color:black
+}
+
+.img-prop {
+    width: 300px;
+    height: 400px;
+    margin-left: 54%;
+}
+
+.header-style{
+    font-size: 24px;
+    font-weight: bold;
+}

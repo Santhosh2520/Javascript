@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Couses</title>
+    </head>
+    <body>
+        
+        courses
+        <script>
+            const courses1=["Java","Python","Javascript"];
+            function courses(){                
+                const un = courses1.shift();
+                console.log('---->'+un);
+                document.getElementById("nameOfcourses").innerHTML=courses1;
+                //console.log(coursesName);
+            }
+                </script>
+                
+                
+        <ul>
+            <li>Javascript</li>
+            <li>Java</li>
+            <li>Python</li>
+        </ul>
+        <div>
+            <p id="nameOfcourses"></p>
+            <button onclick="courses()">Add</button>
+            </div>
+    
+        </script>
+        
+    
+
+    </body>
+</html>

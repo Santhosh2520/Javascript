@@ -4,7 +4,7 @@
     <title>Hoisting</title>
     </head>
     <body>
-        <scripst>
+        <script>
             function home(){
                 a=100;
                 console.log(a);
