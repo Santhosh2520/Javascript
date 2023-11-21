@@ -13,7 +13,7 @@ document.getElementById("val").innerText = student === "Santhosh";
 function employeedetails(){
     alert("Invoked")
     const employee="Ravis";
-    let age="25";
+    // let age="25";
     if(employee === "Ravi")
     {
         alert("I am Ravi")
