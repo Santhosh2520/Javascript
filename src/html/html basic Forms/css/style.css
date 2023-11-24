@@ -1,11 +1,11 @@
-div{
-    
-    font-size: 20px;
-    font-style: bold;
-};
-#div{
-    font-size: 18px;
-    font-style: italic;
+*label{
+    width:150px;
+    display: inline-block;
+    margin: 20x;
+}
+label{
+    width: 150px;
+    display: inline-block;
 }
 
     
