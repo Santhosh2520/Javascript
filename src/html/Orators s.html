@@ -1,0 +1,218 @@
+
+    <script> 
+    
+        //Type  Coercion
+        //let a="25";
+       // let b=10;
+       // console.log(a+b); 
+
+      //  a=Number(a);
+      //  console.log(a+b);
+
+//Arithmetric Oprators;
+//let a=200;
+//let b=20;
+//let c;
+//c=a+b  // o/p:220
+//c=a-b // o/p :180
+//c=a*b // o/p:4000
+//c=a/b// o/p:10
+//c=a%b // o/p:0
+//console.log(c)
+
+//Assignment Oprators;
+//let a=10;
+//a+=5;  //o/p : 15
+//-=5 ;  //o/p :5
+//a*=5;  //o/p:50
+//a/=5;  //o/p:10
+//a%=5;  //0/p:0
+//console.log(a);
+
+//Comparison Oprators;
+//let a=10;
+//let b=20;
+//console.log(a==b);  //false
+
+//let a=10;
+//let b="10";
+//console.log(a==b);  //true
+
+//let a=10;
+//let b=10; 
+//console.log(a===b);  //true === value same irrukanum type um same ah irrukanum use for ====
+
+//let a=10;
+//let b="25";
+//console.log(a!=b);   // true
+
+//Relational Oprators in Js(> great , < less , >= greater than equl, <= less than or equl)
+//let a=10;
+//let b=20;
+//console.log(a>b);   //false
+//console.log(a<b);    //true
+//console.log(a>=b)  // false
+//console.log(a<=b);  //true
+
+
+//Logical Oprator(&&, ||, !)
+//let mark=45;
+
+//console.log(mark>=35 && mark<=100); //2 condition true aganum
+
+
+//let a=10;
+//
+//console.log(a==2 || a==10);  // any one Condition is true
+
+//a=false;
+//console.log(!a); // false ah irrtha true  or true irrutha false
+
+//Strict equality Oprators
+//let a=10;
+//console.log(a);  //10
+//let b="10";
+//console.log(a==b); // true
+//console.log(a===b);  //false
+
+//Conditional Or Ternary Oprators(?!)
+//const age =15;
+//const result=age>=18?"Eligible":"Not Eligible"
+//console.log(result);  //Not Eligible
+
+//Handing Null Values
+function Welcome (name){
+    const result=name?name:"No Name";
+    console.log("Welcome "+result);
+}
+Welcome(null);
+Welcome("San");
+
+user={"name":"San","age":"23"};
+console.log(user);
+console.log(user.name);
+console.log(user.age);
+
+const greeting=()=>{
+    const name=user?user.name:"No name"
+    return "World" +name;
+}
+console.log(greeting(user));
+
+//Conditional Chains
+/*
+avg >=90 A grade
+avg <=80 B grade
+C grade
+*/
+//const avg=90;
+//const grade=avg>=90? "A Grade":"No Grade";
+//console.log("Grade :",grade);  o/p : A grade
+
+//const avg=70; //change value c
+//const grade=avg>=90? "A Grade":avg>=80?"B Grade":"C Grade";
+//console.log("Grade :",grade)
+
+//BitWise Oprators(Bitwise AND(&) , Bitwise OR(|) ,Bitwise Not(-),Bitwise XOR(^
+//left shift(<<) , Right Shift(>>) , Unsingned Shift(>>>) ))
+
+//const a=2;//10
+//const b=3;//11
+//console.log(a&b);
+
+/*0010
+  0011
+  ----
+  0010
+  */                             // Bitwise Assingment Oprators
+                                  
+ //const a=12;//1100               let a=12; //1100
+ //const b=24;//11000              let b=24; //11000
+ //console.log(a&b);                console.log(a&b);
+ /*
+ 0000 1100   12                       a&=b;
+ 0001 1000   24                       console.log(a);
+ --------------
+ 0000 1000    8
+ */
+
+ //Bitwise OR
+// a=12;
+ //b=24;
+ //console.log(a|b);
+/*
+ 0000 1100   12                   
+ 0001 1000   24                       
+ --------------
+ 0000 1000    8
+ */
+//Bitwise NOT(~) ~a=-a-1
+//a=25;
+//console.log(~a); //~25=-25-1 = -26
+
+//Bitwise XOR(^)
+//a=12; //10
+//b=6;  //11
+//console.log(a^b);// 10
+
+//Left Shift(<<)
+//a=5;
+//b=2;
+//console.log(a<<b);//20
+//a<<=b;
+//console.log(a);
+// Right Shift(>>)
+//a=8;
+//b=2;
+//console.log(a>>b);
+//a>>=b;
+//console.log(a);
+
+//Nullish Coalescing Oprtors(??)
+/*
+const a=null??"No Value";
+console.log(a);
+
+const b=null??77
+console.log(b);
+
+//??=
+const deatails={"name":"San"};
+console.log(deatails);
+console.log(deatails.name)
+ 
+deatails.city??="Chennai";
+console.log(deatails.city);
+console.log(deatails);
+*/
+//Increment(++) or Decrement(--)
+let a=10;
+a++;
+console.log(a);   //o/p :11
+
+let b=5;
+b--;
+console.log(b); // o/p :4
+ /*
+ Postfix Increment a++
+ Prefix  Increment  ++a
+ */
+let x=3;
+const y=x++; 
+console.log(x,y); // first value assingn pannidum athuku apram thaan increment pannum it is called postfix
+
+let i=3;
+const j=++i;
+console.log(i,j)
+
+
+
+
+
+
+
+
+
+    </script>
+    
+
